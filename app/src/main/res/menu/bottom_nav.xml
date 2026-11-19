@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_wishes"
+        android:icon="@drawable/ic_favorite"
+        android:title="Antojos" />
+    <item
+        android:id="@+id/nav_savings"
+        android:icon="@drawable/ic_check_circle"
+        android:title="Ahorros" />
+</menu>

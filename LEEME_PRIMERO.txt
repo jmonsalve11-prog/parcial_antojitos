@@ -1,0 +1,32 @@
+ANTOJITOS - PROYECTO ANDROID STUDIO
+
+IMPORTANTE: abre la carpeta parcial_antojitos directamente en Android Studio.
+No abras la carpeta app sola ni una carpeta superior.
+
+PASOS:
+1. Extrae parcial_antojitos.zip usando Extraer todo.
+2. Abre Android Studio > File > Open.
+3. Selecciona la carpeta parcial_antojitos (dentro estan app y settings.gradle.kts).
+4. Espera a que termine Gradle Sync. Requiere internet la primera vez.
+5. Si se solicita, instala Android SDK Platform 34 y utiliza Gradle JDK 17.
+6. Tools > Device Manager > crea o inicia un emulador Android.
+7. En la barra superior elige app y el dispositivo, y pulsa Run.
+
+PARA TU CELULAR:
+1. En Android activa Opciones de desarrollador y Depuracion USB.
+2. Conectalo al PC y acepta la autorizacion de depuracion.
+3. Selecciona el telefono en Android Studio y pulsa Run.
+4. Alternativa: Build > Build Bundle(s) / APK(s) > Build APK(s).
+   El APK aparecera en app/build/outputs/apk/debug/app-debug.apk
+   Copialo al telefono e instalalo (autoriza la instalacion si Android lo solicita).
+
+FUNCIONES: antojos, foto opcional, enlace, categorias, prioridades, edicion,
+eliminacion, marcar como comprado, regresar a pendientes, gastos y filtros.
+Los datos se guardan localmente con Room/SQLite.
+
+REQUISITOS: Android Studio compatible con AGP 8.5.2, JDK 17, Android SDK 34,
+Internet para descargar Gradle 8.7 y las dependencias al abrir por primera vez.
+
+NOTA: El codigo se reviso y empaqueto, pero este entorno no tiene Android SDK
+ni emulador, asi que no se pudo compilar ni probar un APK aqui.
+Si Gradle Sync o Run falla, copia el error completo de Build Output.
